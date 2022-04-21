@@ -1,6 +1,6 @@
 {
   "name": "array-same-structure",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "to reduce space when exchanging an array of data whose elements are objects of the same structure",
   "main": "dist/array-same-structure.js",
   "scripts": {
