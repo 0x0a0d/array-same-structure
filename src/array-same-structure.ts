@@ -1,7 +1,5 @@
-type HeaderType = string | number|symbol
-
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export function compact<HEADER = HeaderType, DATA = any[]>(arr: any[], defaultValue?: any): [headers: HEADER[], ...data: DATA[][]] {
+export function compact<HEADER = any, DATA = any>(arr: any[], defaultValue?: any): [headers: HEADER[], ...data: DATA[][]] {
   const headers = []
 
   const data = arr.map(item => {
